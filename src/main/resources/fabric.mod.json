@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fullbright",
+  "version": "${version}",
+  "name": "Fullbright",
+  "description": "A Fullbright Mod with a lot of customizability like keybind to toggle between fullbright or normal brightness or dark brightness!",
+  "authors": [
+    "TinyWiFi"
+  ],
+  "contact": {
+    "website": "tinywifi.win"
+  },
+  "license": "MIT",
+  "icon": "assets/Fullbright/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "Fullbright.Client"
+    ]
+  },
+  "mixins": [
+    "Fullbright.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": ">=1.19.1"
+  }
+}
